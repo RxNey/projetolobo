@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  font-family: "Fira Sans", Arial;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  color: #e0e0e0;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+.subtitulo2 {
+  font-size: 8rem;
+  line-height: 1;
+  color: #000;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 2.5rem;
+    color: #000;
+  }
+}

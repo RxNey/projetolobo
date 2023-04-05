@@ -1,0 +1,63 @@
+.rodape {
+  background: #000;
+}
+.rodape-div {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  background-color: #000;
+  padding: 120px 20px 60px 20px;
+}
+
+.contatos-lista {
+  grid-column: 2;
+}
+
+.rodape-div li {
+  font-size: 2.25rem;
+  color: #fff;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.rodape-div a {
+  color: #fff;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #e6dfdf;
+  width: 45ch;
+  margin-top: 50px;
+}
+
+.direitos {
+  color: #a3a3a3;
+  font-size: 1.125rem;
+}
+
+@media (max-width: 800px) {
+  .rodape-div {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto auto;
+    gap: 10px;
+    padding-top: 60px;
+  }
+
+  .footer-texto {
+    font-size: 1.125rem;
+    margin-top: 0px;
+  }
+
+  .rodape-div li {
+    font-size: 1.3rem;
+    line-height: 0.2;
+  }
+}
