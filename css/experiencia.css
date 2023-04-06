@@ -62,7 +62,7 @@
     gap: 40px;
   }
   .subtitulo {
-    max-width: initial;
+    max-width: initial !important;
     text-transform: initial;
   }
 
